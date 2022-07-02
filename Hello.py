@@ -6,7 +6,13 @@
 # user.append(9)
 # print(user)
 
-a=10
-b=20
-print("so you want",a)
-print("from",b)
+# a=10
+# b=20
+# print("so you want",a)
+# print("from",b)
+
+
+
+a=["Hello","world"]
+for var in a:
+    print(var)
