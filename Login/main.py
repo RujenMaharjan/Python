@@ -48,7 +48,7 @@ def login():
             if login_success== True:
                 print(f"Welcome to the system {username}")
             elif username!=uname:
-                print(f"{uname} you have entered has not been registerd")
+                print(f"{username} has not been registerd")
             elif password!=upass:
                 print(f"Incorrect password")
             else:
